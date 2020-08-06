@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+call vundle#end()
+
+#commands
+alias ll="ls -lah"
+alias sn="exit"
+alias vpi="vim +PluginInstall +qall"
+
+#files
+alias aliases="vim ~/.aliases"
+alias zshrc="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
+
+#github
+alias ga="git add"
+alias gaa="git add ."
+alias gc="git commit -m"
+alias gac="git add . && git commit -m"
+alias gpom="git push -u origin master"
