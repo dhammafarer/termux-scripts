@@ -1,9 +1,5 @@
 #!/bin/sh
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-call vundle#end()
-
 #commands
 alias ll="ls -lah"
 alias sn="exit"
@@ -20,3 +16,12 @@ alias gaa="git add ."
 alias gc="git commit -m"
 alias gac="git add . && git commit -m"
 alias gpom="git push -u origin master"
+
+#navigation
+alias sd="cd ~/storage/external-1"
+
+#pass
+alias pc="pass -c"
+alias pce="pc email/pawel.lisewski@protonmail.com"
+alias pcg="pc github/dhammafarer"
+alias pcsh="pc store/shopee"
