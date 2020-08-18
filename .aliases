@@ -4,6 +4,7 @@
 alias ll="ls -lah"
 alias sn="exit"
 alias vpi="vim +PluginInstall +qall"
+alias pi="pkg install"
 
 #files
 alias aliases="vim ~/.aliases"
