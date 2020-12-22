@@ -5,6 +5,7 @@ alias ll="ls -lah"
 alias sn="exit"
 alias vpi="vim +PluginInstall +qall"
 alias pi="pkg install"
+alias ym="cd ~/storage/movies && youtube-dl"
 
 #files
 alias aliases="vim ~/.aliases"
@@ -24,5 +25,16 @@ alias sd="cd ~/storage/external-1"
 #pass
 alias pc="pass -c"
 alias pce="pc email/pawel.lisewski@protonmail.com"
+alias pceg="pc email/pawel.lisewski@gmail.com"
 alias pcg="pc github/dhammafarer"
 alias pcsh="pc store/shopee"
+alias pcn="pc nextcloud/revachol/pawel"
+alias pcv="pc nextcloud/revachol/video"
+alias pcc="pc nextcloud/revachol/ctn"
+alias pca="pc nextcloud/revachol/admin"
+
+#ssh
+alias revachol="ssh -p 437 pawel@revachol.ddns.net"
+
+#sync
+alias sync="rsync -avh --progress -e 'ssh -p 437' pawel@revachol.ddns.net:/mnt/data/Sync ~/storage/external-1"
