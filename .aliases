@@ -28,13 +28,10 @@ alias pce="pc email/pawel.lisewski@protonmail.com"
 alias pceg="pc email/pawel.lisewski@gmail.com"
 alias pcg="pc github/dhammafarer"
 alias pcsh="pc store/shopee"
-alias pcn="pc nextcloud/revachol/pawel"
-alias pcv="pc nextcloud/revachol/video"
-alias pcc="pc nextcloud/revachol/ctn"
-alias pca="pc nextcloud/revachol/admin"
+alias pcn="pc nextcloud/klaasje/pawel"
+alias pcv="pc nextcloud/klaasje/video"
+alias pcc="pc nextcloud/klaasje/ctn"
+alias pca="pc nextcloud/klaasje/admin"
 
 #ssh
-alias revachol="ssh -p 437 pawel@revachol.ddns.net"
-
-#sync
-alias sync="rsync -avh --progress -e 'ssh -p 437' pawel@revachol.ddns.net:/mnt/data/Sync ~/storage/external-1"
+alias klaasje="ssh -p 437 ubuntu@klaasje.ddns.net"
